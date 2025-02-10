@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
-    text-align: justify; /* Tekst uitvullen */
+    text-align: center; /* Tekst uitvullen */
 }
 
 body {
@@ -39,7 +39,7 @@ body {
 
 /* Koppen en tekst */
 h1, p {
-    text-align: justify; /* Zorgt ervoor dat de tekst uitgevuld is */
+    text-align: center; /* Zorgt ervoor dat de tekst uitgevuld is */
     width: 90%; /* Zorgt voor betere leesbaarheid */
 }
 
