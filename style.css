@@ -86,3 +86,25 @@ p {
     color: #121212;
     transform: scale(1.04);
 }
+
+@keyframes fall {
+    0% {
+        transform: translateY(-10vh) rotate(0deg);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(110vh) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+.money {
+    position: fixed;
+    top: -10vh;
+    width: 50px;
+    height: auto;
+    animation: fall linear infinite;
+    pointer-events: none;
+}
+
+
