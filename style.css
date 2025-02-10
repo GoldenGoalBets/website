@@ -92,11 +92,11 @@ p {
 }
 @keyframes fall {
     0% {
-        transform: translateY(-10vh) rotate(0deg);
+        transform: translateY(-1vh) rotate(0deg);
         opacity: 1;
     }
     100% {
-        transform: translateY(110vh) rotate(360deg);
+        transform: translateY(60vh) rotate(150deg);
         opacity: 0;
     }
 }
