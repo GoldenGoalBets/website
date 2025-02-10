@@ -52,7 +52,7 @@ p {
 /* Algemene knopstijl */
 .btn {
     display: inline-block;  /* Zorgt ervoor dat het geen platte tekst is */
-    width: 100%;
+    width: 60%;
     max-width: 350px;
     padding: 15px;
     margin: 8px 0;
