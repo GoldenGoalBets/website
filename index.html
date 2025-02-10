@@ -7,31 +7,6 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-    function createDollarBill() {
-        let bill = document.createElement("img");
-        bill.src = "dollar.png"; // Zorg dat je een afbeelding 'dollar.png' hebt
-        bill.classList.add("money");
-
-        // Willekeurige startpositie
-        bill.style.left = Math.random() * window.innerWidth + "px";
-        bill.style.animationDuration = (Math.random() * 2 + 3) + "s"; // 3-5 sec
-
-        document.body.appendChild(bill);
-
-        // Verwijderen na animatie
-        setTimeout(() => {
-            bill.remove();
-        }, 5000);
-    }
-
-    // Elke 300ms een nieuw dollarbiljet laten vallen
-    setInterval(createDollarBill, 300);
-});
-</script>
-
-
 <body>
 
     <div class="container">
